@@ -10,7 +10,6 @@ I have also worked with HTML and CSS in the past and believe it would be simple 
 
 Below you can browse a few projects that I have developed during my time at AIE.
 
-![tet](\assets\image\gif\bysnpsd.gif)
 
 ### Backyard Snowdown
 
