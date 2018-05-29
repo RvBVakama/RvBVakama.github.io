@@ -16,5 +16,6 @@ Below you can browse a few projects that I have developed during my time at AIE.
 We created a kids imagination of a backyard winter snow fight! Fast-paced, snowball throwing, intense moments inducing local multiplayer game!
 The last kid standing wins.
 ![](\assets\image\gif\bysd.gif)
+.
 ![](\assets\image\gif\bysnpsd.gif)
 
