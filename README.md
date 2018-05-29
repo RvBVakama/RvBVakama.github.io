@@ -1,30 +1,23 @@
-## Welcome to GitHub Pages
+## Mitchell Cattini-Schultz
 
-You can use the [editor on GitHub](https://github.com/RvBVakama/RvBVakama.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Welcome to my portfolio website.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+My name is Mitchell, I live in Melbourne and am currently studing at the Academy of Interactive Entertainment (AIE). I have 1.5 years in C++ and over 3 years of Unity C# experience. I have also worked with HTML and CSS in the past and believe it would be easy to pick it back up if needed.
 
-```markdown
-Syntax highlighted code block
+Below you can browse a few projects that I have developed during my time at AIE.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+
+
+
+### Backyard Snowdown
+
+Back
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
