@@ -13,15 +13,13 @@ body {
 }
 
 .row {
+    text-align: center;
     color: #dbfffc;
-    margin-left:auto;
-    margin-right: auto;
     margin-bottom: 50px;
     padding: 15px;
     padding-top: 50px;
     border-radius: 25px;
     max-width: 100%;
-    text-align-last:center;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
@@ -55,6 +53,7 @@ body {
   margin-bottom: 15px;
 }
 
-p {
-
+.col-md-7 {
+flex: 1;
+max-width: 100%;
 }
