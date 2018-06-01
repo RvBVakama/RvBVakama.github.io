@@ -4,6 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/blob/master/LICENSE)
  */
 
+div {
+  font-size: 1.1rem;
+}
+
 body {
   color: #dbfffc;
   background-image: url("../assets/image/png/bg.png");
@@ -16,8 +20,10 @@ body {
     text-align: center;
     color: #dbfffc;
     margin-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
     padding: 15px;
-    padding-top: 50px;
+    padding-top: 25px;
     border-radius: 25px;
     max-width: 100%;
     -webkit-border-radius: 3px;
