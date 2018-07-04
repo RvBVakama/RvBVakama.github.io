@@ -51,7 +51,8 @@
 			<div class="col-md-7">
 				<h3 href="https://github.com/hamishsmithers/FrankenfruitStudioEOYProject">Backyard Snowdown</h3>
 				<p>
-					Backyard Snowdown was produced by "Frankenfruit Studio". Our game was the product of my 2017 end of year team game assignment. Frankenfruit Studio consisted of 2 designers, 2 programmers, and 3 artists.
+					Backyard Snowdown was produced by "Frankenfruit Studio". Our game was the product of my 2017 end of year team game assignment. Frankenfruit Studio consisted of 2 designers,
+					 2 programmers, and 3 artists.
 					We created a kid's imagination of a backyard winter snow fight! A fast-paced local multiplayer party game!
 					<br>
 					The last kid standing wins.
@@ -59,28 +60,37 @@
 				<br>
 				<h3>The Development Process</h3>
 				<p>
-					Backyard Snowdown's development spanned over 2 months. Early on, both our designers were absent for around 4 weeks, due to this our other programmer and I took it upon ourselves to design the game. We ended up having a really great response from the teachers and other students. This taught us to be flexible and innovative when it came to thinking on our feet. As a part of the assessment, our teachers organized an industry panel, whose job was to come in and provide feedback on the various games. What surpised us, when it came to our turn to present, was that the panel, during the question period, had no advice for us. (Every other group had advice given). This gave our team a huge boost in morale because it showed us that we had been developing the game to a high standard.
+					Backyard Snowdown's development spanned over 2 months. Early on, both our designers were absent for around 4 weeks, due to this our other programmer and 
+					I took it upon ourselves to design the game. We ended up having a really great response from the teachers and other students. This taught us to be flexible
+					 and innovative when it came to thinking on our feet. As a part of the assessment, our teachers organized an industry panel, whose job was to come in and 
+					 provide feedback on the various games. What surpised us, when it came to our turn to present, was that the panel, during the question period, had no advice
+					  for us. (Every other group had advice given). This gave our team a huge boost in morale because it showed us that we had been developing the game to a high standard.
 				</p>
 				<br>
 				<h3>What I contributed</h3>
 				<br>
 				<dl>
 					<dt>Jumping Snowman</dt>
-					<dd>I created the jumping snowman that appears and starts jumping around dealing a knock-back effect to players. I learned a lot about Unity's math functions such as Vector3.Lerp and Physics.CheckSphere.</dd>
+					<dd>I created the jumping snowman that appears and starts jumping around dealing a knock-back effect to players. I learned a lot about Unity's math functions such as
+						 Vector3.Lerp and Physics.CheckSphere.</dd>
 					<br>
 					<dt>Dash</dt>
-					<dd>I programmed the dash feature. Dash allows the players to dive towards players or snowballs, which allows players to pickup snowballs or steal them from other players and to also catch them mid-flight. This really adds an interesting and fun element of gameplay to the game as it allows players to have more of a chance aginst other players.</dd>
+					<dd>I programmed the dash feature. Dash allows the players to dive towards players or snowballs, which allows players to pickup snowballs or steal them from other 
+						players and to also catch them mid-flight. This really adds an interesting and fun element of gameplay to the game as it allows players to have more of a chance aginst other players.</dd>
 					<br>
 					<dt>Object Pool</dt>
-					<dd>I learned how to create an object pool during the development of the game. Object pools allow for more efficient management of game assets/resources. It also eliminates the possibility of an object existing more times than is allowed by the object pool.</dd>
+					<dd>I learned how to create an object pool during the development of the game. Object pools allow for more efficient management of game assets/resources. It also eliminates the 
+						possibility of an object existing more times than is allowed by the object pool.</dd>
 				</dl>
 				<br>
 				<dt>Player Logic</dt>
-				<dd>The player script went through many stages of development; was very complex and taught us a lot about specific Unity features, such as layers, collision detection, Fixed Update, code neatness, code commenting standards and complex systems such as the snowball charging and firing systems.</dd>
+				<dd>The player script went through many stages of development; was very complex and taught us a lot about specific Unity features, such as layers, collision detection, Fixed Update, 
+					code neatness, code commenting standards and complex systems such as the snowball charging and firing systems.</dd>
 
 				<br>
 				<dt>Snowball</dt>
-				<dd>The snowball is the element of the game that players use to damage other players and ultimately is the way the winner is decided. This script is also quite complex, it tracks a number of variables such as velocity and collision targets to provide a balanced way for it to function.</dd>
+				<dd>The snowball is the element of the game that players use to damage other players and ultimately is the way the winner is decided. This script is also quite complex, it tracks a number 
+					of variables such as velocity and collision targets to provide a balanced way for it to function.</dd>
 
 				<br>
 				<a class="btn btn-primary" href="https://github.com/hamishsmithers/FrankenfruitStudioEOYProject">View on Github</a>
@@ -105,13 +115,21 @@
 				<br>
 				<dl>
 					<dt>Object Pool</dt>
-					<dd>This is used to pool the bullet prefab so we could instantiate 6 bullets at the start of the game and then just reuse them during the game. Setting the bullets to false when they are reloaded and activating them when the player shoots.</dd>
+					<dd>This is used to pool the bullet prefab so we could instantiate 6 bullets at the start of the game and then just reuse them during 
+						the game. Setting the bullets to false when they are reloaded and activating them when the player shoots.</dd>
 					<br>
 					<dt>Round Manager</dt>
-					<dd>I spent alot of time on this part of the project, making it really easy for the designers to set up. It functions if all the enemies in the current room are all dead or not; when it detects this it moves to the next room. The system is modular; you just have to use the folder structure provided. When the game starts, my code runs and automatically detects how many enemies are in each room and also how many rooms there are. This information is stored in a list of lists. The main benefit in using this is that the traditional way, requires designers to drag and drop the enemies onto a publicly exposed list variable. This method is more efficient because it detects the enemies and adds them via code.</dd>
+					<dd>I spent alot of time on this part of the project, making it really easy for the designers to set up. It functions if all the enemies 
+						in the current room are all dead or not; when it detects this it moves to the next room. The system is modular; you just have to use 
+						the folder structure provided. When the game starts, my code runs and automatically detects how many enemies are in each room and also 
+						how many rooms there are. This information is stored in a list of lists. The main benefit in using this is that the traditional way, requires
+						 designers to drag and drop the enemies onto a publicly exposed list variable. This method is more efficient because it detects the enemies and adds them via code.</dd>
 					<br>
 					<dt>Fly Camera</dt>
-					<dd>This works in unison with the round manager; when the fly camera script gets the information from the round manager, that all the enemies in the room have died, it triggers to fly to the next room. It does this by lerping between empty game objects in the scene and by Transform.LookAt lerping. There is a list of "Camera Location Points" and a list of "Camera Look at Points." These lists are self-explanatory and tells the camera where to go and to where to look. Its location is in correlation with the current round.</dd>
+					<dd>This works in unison with the round manager; when the fly camera script gets the information from the round manager, that all the enemies 
+						in the room have died, it triggers to fly to the next room. It does this by lerping between empty game objects in the scene and by Transform.LookAt lerping.
+						 There is a list of "Camera Location Points" and a list of "Camera Look at Points." These lists are self-explanatory and tells the camera where to go and to where to look.
+						  Its location is in correlation with the current round.</dd>
 				</dl>
 				<br>
 				<a class="btn btn-primary" href="https://github.com/MickeySeamark/GameJam3">View on Github</a>
@@ -128,14 +146,16 @@
 		<div class="row">
 			<div class="col-md-7">
 				<h3>Barefoot Engine</h3>
-				<p>Currently (May-June 2018) we are studying the OpenGL Shading Language (GLSL) using <a href="https://github.com/AcademyOfInteractiveEntertainment/aieBootstrap" style="color: #aadffc"> AIE's bootstrap </a> as the base of the engine. We are programming the rendering capabilities of the engine.</p>
+				<p>Currently (May-June 2018) we are studying the OpenGL Shading Language (GLSL) using <a href="https://github.com/AcademyOfInteractiveEntertainment/aieBootstrap" style="color: #aadffc"> AIE's 
+					bootstrap </a> as the base of the engine. We are programming the rendering capabilities of the engine.  In my engine 
+					I have included 5 multi-textured models (4 of which are loaded from an obj and an accompanying mtl file), a custom phong lighting shader which lights each model, 
+					a particle system shader and a shader that handles the blended floor texture.</p>
 				<br>
 				<a class="btn btn-primary" href="https://bitbucket.org/RvBVakama/barefoot/">View on Bitbucket</a>
 				<br>
 				<br>
 				<br>
-				<img class="img-fluid rounded mb-3 mb-md-0" src="assets\image\gif\bfsphere.gif" style="width:49%; alt=" sphere" ="">
-				<img class="img-fluid rounded mb-3 mb-md-0" src="assets\image\gif\bfquad.gif" style="width:49%; alt=" quad" ="">
+				<img class="img-fluid rounded mb-3 mb-md-0" src="assets\image\gif\bfscene.gif" style="width:49%;" alt="scene">
 			</div>
 		</div>
 		<!-- /.row -->
