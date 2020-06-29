@@ -121,8 +121,9 @@
 				<br>
 				<h3>The Development Process</h3>
 				<p>
-					Development spanned over 6 months, June to November. In this time our team developed the game, maintained documentation, performed testing, implemented changes and produced marketing material.
-					Initially we wanted to utilise Mapbox (3rd party addon for getting map data), and Photon (3rd party addon for multiplayer game capability) to create an experience for players to play together. The teachers advised us at our first review that the scope may be too large. We discussed this as a team and decided we needed to make drastic changes. Instead of live multiplayer action, we would focus on getting Mapbox working well and allow players to create their own maps, set their best track times, and challenge their friends instead.
+					Development spanned over 6 months, June to November (in 2018). In this time our team developed the game, maintained documentation, performed testing, implemented changes and produced marketing material.
+					<br>
+					Initially we wanted to utilise Mapbox (3rd party addon for getting map data), and Photon (3rd party addon for multiplayer game capability) to create an experience for players to play together anywhere in the world. Our teachers advised us at our first review that the scope may be too large. We discussed this as a team and decided to make drastic changes. Instead of live multiplayer action, we would focus on getting Mapbox working well to allow players to create their own maps, set their best track times, and challenge their friends instead.
 					This ended up being a better scope as coordinating Mapbox and Photon was proving too tough for 3 programmers.
 
 				</p>
@@ -131,27 +132,27 @@
 				<br>
 				<dl>
 					<dt>Track Creator</dt>
-					<dd>I was the main programmer for the track creator aspect of the game. This is a major aspect of the game as it allows anyone to create race tracks with waypoints and other assets anywhere in the world.</dd>
+					<dd>I was the main programmer for the track creator aspect of the game. This is a major part of the game as it allows anyone to create race tracks, placing waypoints and other assets anywhere in the world.</dd>
 					<br>
 					<dt>Save Load Maps</dt>
-					<dd>As I was the main programmer for the track creator, I had the best idea about how it was specifically programmed, thus this allowed me to learn a lot about Unity when it came to saving and loading map files. It was a lot of fun. I love building systems like this!</dd>
+					<dd>As I was the main developer of the track creator system, I knew how it was specifically programmed, thus allowing me to implement and subsequently learn a lot about Unity when it came to saving and loading map files. It was a lot of fun. I love building systems like this!</dd>
 					<br>
 					<dt>Ghost</dt>
-					<dd>The ghost was your best time on the map you are playing as a ghost, like in Mario Kart!
+					<dd>The ghost was your best time on the map you are playing represented as a ghost, like in Mario Kart!
 					This was a ton of fun to program, it taught me about saving large amounts of data, optimizing it and loading the data again, all while preserving performance.</dd>
 				</dl>
 				<br>
 				<dt>Race Logic</dt>
-				<dd>I also was the sole programmer for the race logic and how players were tracked against the ghost to see who finished the track first.
-				This was a super fun aspect of the programming because I had to use a ton of cool maths to track the player and ghost progression on the track.</dd>
+				<dd>I was the sole programmer for the race logic and how players were tracked against the ghost to see who finished the track first.
+				This was a super fun aspect of the programming because I had to use a ton of math to track the player and ghost progression on the track.</dd>
 
 				<br>
 				<dt>Other aspects</dt>
-				<dd>Since the team was only 6 people, we were all in the same room and we would constantly help each other with code. This led me to having my code appear in almost every aspect of the game such as the: menu systems, Mapbox loading code, car controller amongst other various aspects. I learned alot from working on this project.</dd>
+				<dd>Since the team was only 6 people, we were all in the same room and we would constantly help each other with code. This led me to having my code appear in almost every aspect of the game such as the: menu systems, Mapbox loading code, and car controller amongst other various areas. I learned alot from working on this project.</dd>
 
 				<br>
 				<dt>Git Bash</dt>
-				<dd>Another huge thing for me during the project was I only used command line git. This ended up being essential to time saving when repo issues came up. Since the rest of my team was using various GUI interfaces, sometimes issues arose where the command line was required. Eventually I converted the other 2 programmers to command line and they loved it. I even had other students on the floor asking for my help with saving their projects!</dd>
+				<dd>Another huge thing for me during the project was I only used git from the command line. This ended up being essential version-control issues came up. The rest of my team was using various git GUI interfaces, and occasionally issues would arise where the command line was required. Eventually I converted the other 2 programmers to the command line and they loved it. I even had other students on the floor asking for my help.</dd>
 
 				<br>
 			<div class="col-md-7">
@@ -174,20 +175,21 @@
 					About a year ago I got the sudden urge to make something cool in Unity. I had recently watched <a href="https://www.youtube.com/watch?v=NWBToaXK5T0">this</a> video and decided to create it in Unity. I had a lot of fun creating it and thought "this would be cool to release on Steam", so I checked and no one had done it yet (please don't beat me to it)!
 					<br>
 					<br>
-					Here is an excerpt that Wikipedia provides: 
+					Here's the description Wikipedia provides: 
 					"Langton's ant is a two-dimensional universal Turing machine with a very simple set of rules but complex emergent behaviour. It was invented by Chris Langton in 1986 and runs on a square lattice of black and white cells. The universality of Langton's ant was proven in 2000."
 				</p>
 				<br>
 				<h3>The Development Process</h3>
 				<p>
 					Initially I just wanted to get the maths of Langton's Ant working in Unity, so I started with initialising cubes and using raycasts from a player gameobject to get it working. After a little while, I got it working, but the number of cubes being created was silly and Unity wasn't handling it well. 
-					Next, I set out to optimize my code! I learned a ton of cool Unity optimisations such as disabling physics engine, learning more about raycasts amongst other things. In the end the biggest optimization by far was changing from creating cubes to simply having a texture whose pixels I was changing based on some complexish maths.
+					Next, I set out to optimize my code. I learned a ton of cool Unity optimisations such as disabling physics engine and learning more about raycasts amongst other things. In the end the biggest optimization by far was changing from creating cubes to simply having a texture whose pixels I was changing based on some complexish maths.
 				</p>
 
 				<h3>Features I added to the base program</h3>
 				<br>
 				<dt>Looping</dt>
-				<dd>This allows the ant to seamlessly loop offscreen and appear on the other side. This allows causes the ant to loop back and interact again with the path and create some more awesome patterns! This is the best when a <a href="https://upload.wikimedia.org/wikipedia/commons/d/d3/LangtonsAnt.png">highway</a> is created.</dd>
+				<dd>This allows the ant to seamlessly loop offscreen and appear on the other side. This allows causes the ant to loop back and interact again with the path and create some more awesome patterns! This is the best when a <a href="https://upload.wikimedia.org/wikipedia/commons/d/d3/LangtonsAnt.png">highway</a> is created.
+				<br>You can see this in the video below.</dd>
 						
 				<br>
 				<dt>Spacing</dt>
